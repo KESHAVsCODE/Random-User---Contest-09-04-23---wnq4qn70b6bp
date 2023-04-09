@@ -1,6 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+
 
 
 const image = document.getElementById("image");
@@ -46,4 +44,4 @@ phone.addEventListener("click", () => {
 
 getUser.addEventListener("click", renderRandomUser);
 
-ReactDOM.render(<App />, document.getElementById("root"));
+
